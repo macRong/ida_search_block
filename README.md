@@ -8,5 +8,6 @@ open ida (file/script file) output block-symbol.json (current path)
 
 
  cd restore-symbol
+ <br/>
  ./restore-symbol YourExec -o YourExec_block -j block_symbol.json
 
